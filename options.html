@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cisco Malware Intelligence Search Extension Options</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+</head>
+
+<body>
+  <h2>Options for Cisco Malware Intelligence Search Extension</h2>
+  <br>
+
+  AMP Public Cloud:
+  <select id="AMPPublicCloudGeo" type="text">
+    <option value='us'>US</option>
+    <option value='eu'>EU</option>
+    <option value='apjc'>APJC</option>
+  </select>
+  <br>
+
+  <label>
+    IP Address for AMP Private Cloud Application Interface:
+    <input id="AMPPrivateCloudIP" type="text">
+  </label>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src='options.js'></script>
+</body>
+</html>
